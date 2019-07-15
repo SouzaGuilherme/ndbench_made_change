@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.geode.plugin.EnvParserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:07:06" hostname="julia" time="0.739">
+  <properties/>
+  <testcase name="getPasswordTest" classname="com.netflix.ndbench.geode.plugin.EnvParserTest" time="0.716"/>
+  <testcase name="getUsernameTest" classname="com.netflix.ndbench.geode.plugin.EnvParserTest" time="0.008"/>
+  <testcase name="getLocatorsThrowsExceptionTest" classname="com.netflix.ndbench.geode.plugin.EnvParserTest" time="0.006"/>
+  <testcase name="getLocatorsReturnsAListOfValidLocatorsTest" classname="com.netflix.ndbench.geode.plugin.EnvParserTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

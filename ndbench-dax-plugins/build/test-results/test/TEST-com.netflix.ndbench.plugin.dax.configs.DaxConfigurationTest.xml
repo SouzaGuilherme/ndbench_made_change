@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.plugin.dax.configs.DaxConfigurationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:06:31" hostname="julia" time="0.16">
+  <properties/>
+  <testcase name="testDefaults" classname="com.netflix.ndbench.plugin.dax.configs.DaxConfigurationTest" time="0.16"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (com.netflix.governator.LifecycleManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>

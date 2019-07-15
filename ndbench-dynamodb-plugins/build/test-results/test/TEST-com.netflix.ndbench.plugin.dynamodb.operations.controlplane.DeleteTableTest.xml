@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.DeleteTableTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:06:38" hostname="julia" time="0.138">
+  <properties/>
+  <testcase name="delete_whenTableDoesNotExist_doesNothing" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.DeleteTableTest" time="0.085"/>
+  <testcase name="delete_whenTableAlreadyExists_deletesTable" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.DeleteTableTest" time="0.031"/>
+  <testcase name="delete_whenTableNotExistsWaiterThrows_deletesTableAndThrows" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.DeleteTableTest" time="0.02"/>
+  <system-out><![CDATA[ INFO 08:06:38,656 Issuing DeleteTable request for asdf
+ INFO 08:06:38,658 Table was already deleted
+ INFO 08:06:38,671 Issuing DeleteTable request for asdf
+ INFO 08:06:38,679 Waiting for asdf to be deleted...this may take a while...
+ INFO 08:06:38,705 Issuing DeleteTable request for asdf
+ INFO 08:06:38,707 Waiting for asdf to be deleted...this may take a while...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

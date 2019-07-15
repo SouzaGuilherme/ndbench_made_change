@@ -1,0 +1,22 @@
+version: '2.1'
+
+services:
+  ndbench:
+    container_name: 'ndbench'
+    image: 'tomcat:latest'
+    ports:
+      - 8080:8080
+    volumes:
+      - /tmp/deploy_dir:/usr/local/tomcat/webapps/
+    environment:
+      CATALINA_OPTS: "-Dndbench.config.cass.host=192.168.250.10 -Dndbench.config.cass.cluster=192.168.250.10"
+      LD_BIND_NOW: 1
+      # ulimits:
+            # nofile:
+              #        soft: 65536
+        #        hard: 65536
+
+networks:
+    default:
+        external:
+            name: experiment

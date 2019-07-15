@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.plugin.es.EsRestPluginIntegrationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:07:01" hostname="julia" time="0.056">
+  <properties/>
+  <testcase name="testInvalidHttpsAndPortSettings" classname="com.netflix.ndbench.plugin.es.EsRestPluginIntegrationTest" time="0.051"/>
+  <testcase name="testInvalidIndexRollSettingsGreaterThan1440" classname="com.netflix.ndbench.plugin.es.EsRestPluginIntegrationTest" time="0.002"/>
+  <testcase name="testInvalidIndexRollSettingsDoesntEvenlyDivide1440" classname="com.netflix.ndbench.plugin.es.EsRestPluginIntegrationTest" time="0.001"/>
+  <testcase name="testInvalidIndexRollSettingsLessThan0" classname="com.netflix.ndbench.plugin.es.EsRestPluginIntegrationTest" time="0.001"/>
+  <system-out><![CDATA[2019-06-28 08:07:00 INFO  LifecycleManager:72 - Starting 'LifecycleManager@277623271'
+2019-06-28 08:07:00 INFO  LifecycleManager:85 - Adding listener 'SafeLifecycleListener@1274700611 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@358f7592]'
+2019-06-28 08:07:00 INFO  LifecycleManager:85 - Adding listener 'SafeLifecycleListener@434368032 [LifecycleProvisionListener@449814676]'
+2019-06-28 08:07:00 INFO  LifecycleManager:101 - Started 'LifecycleManager@277623271'
+2019-06-28 08:07:00 INFO  SafeLifecycleListener:42 - Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@358f7592'
+2019-06-28 08:07:00 INFO  SafeLifecycleListener:42 - Starting 'LifecycleProvisionListener@449814676'
+2019-06-28 08:07:00 INFO  LifecycleInjectorCreator:124 - Injector created successfully 
+2019-06-28 08:07:01 INFO  LifecycleManager:130 - Stopping 'LifecycleManager@277623271'
+2019-06-28 08:07:01 INFO  SafeLifecycleListener:55 - Stopping 'LifecycleProvisionListener@449814676'
+2019-06-28 08:07:02 INFO  LifecycleManager:48 - LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-28 08:07:02 INFO  PreDestroyMonitor:136 - PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-28 08:07:02 INFO  PreDestroyMonitor:191 - closing PreDestroyMonitor...
+2019-06-28 08:07:02 INFO  SafeLifecycleListener:55 - Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@358f7592'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

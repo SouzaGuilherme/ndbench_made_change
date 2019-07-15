@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.plugin.es.AutotuneTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:07:02" hostname="julia" time="1.341">
+  <properties/>
+  <testcase name="testRateStopsIncreasingAfterAcceptableWriteFailureThresholdReached" classname="com.netflix.ndbench.plugin.es.AutotuneTest" time="1.341"/>
+  <system-out><![CDATA[2019-06-28 08:07:02 INFO  EsRestPlugin:170 - ES_REST plugin initialized: Cluster: google.com
+Test Index URL: http://google.com:9200/junkIndexName/default
+2019-06-28 08:07:02 INFO  EsRestPlugin:170 - ES_REST plugin initialized: Cluster: google.com
+Test Index URL: http://google.com:9200/junkIndexName/default
+2019-06-28 08:07:03 INFO  AutotuneTest:28 - result1:[1.0, 2.0, 3.0, 11.0]
+2019-06-28 08:07:03 INFO  AutotuneTest:28 - result1:[1.0, 2.0, 3.0, 11.0]
+2019-06-28 08:07:03 INFO  EsRestPlugin:170 - ES_REST plugin initialized: Cluster: google.com
+Test Index URL: http://google.com:9200/junkIndexName/default
+2019-06-28 08:07:03 INFO  EsRestPlugin:170 - ES_REST plugin initialized: Cluster: google.com
+Test Index URL: http://google.com:9200/junkIndexName/default
+2019-06-28 08:07:03 INFO  AutotuneTest:34 - result2:[1.0, 2.0, 3.0, 11.0]
+2019-06-28 08:07:03 INFO  AutotuneTest:34 - result2:[1.0, 2.0, 3.0, 11.0]
+2019-06-28 08:07:03 INFO  EsRestPlugin:170 - ES_REST plugin initialized: Cluster: google.com
+Test Index URL: http://google.com:9200/junkIndexName/default
+2019-06-28 08:07:03 INFO  EsRestPlugin:170 - ES_REST plugin initialized: Cluster: google.com
+Test Index URL: http://google.com:9200/junkIndexName/default
+2019-06-28 08:07:03 INFO  EsAutoTuner:87 - Not considering increase of write rate limit. calculatedFailureRatio=0.01. threshold=0.01
+2019-06-28 08:07:03 INFO  EsAutoTuner:87 - Not considering increase of write rate limit. calculatedFailureRatio=0.01. threshold=0.01
+2019-06-28 08:07:03 INFO  EsAutoTuner:87 - Not considering increase of write rate limit. calculatedFailureRatio=0.01. threshold=0.01
+2019-06-28 08:07:03 INFO  EsAutoTuner:87 - Not considering increase of write rate limit. calculatedFailureRatio=0.01. threshold=0.01
+2019-06-28 08:07:03 INFO  AutotuneTest:40 - result3:[1.0, 0.0, 0.0, 1.0]
+2019-06-28 08:07:03 INFO  AutotuneTest:40 - result3:[1.0, 0.0, 0.0, 1.0]
+2019-06-28 08:07:03 INFO  EsRestPlugin:170 - ES_REST plugin initialized: Cluster: google.com
+Test Index URL: http://google.com:9200/junkIndexName/default
+2019-06-28 08:07:03 INFO  EsRestPlugin:170 - ES_REST plugin initialized: Cluster: google.com
+Test Index URL: http://google.com:9200/junkIndexName/default
+2019-06-28 08:07:03 INFO  EsAutoTuner:87 - Not considering increase of write rate limit. calculatedFailureRatio=0.010101010101010102. threshold=0.01
+2019-06-28 08:07:03 INFO  EsAutoTuner:87 - Not considering increase of write rate limit. calculatedFailureRatio=0.010101010101010102. threshold=0.01
+2019-06-28 08:07:03 INFO  EsAutoTuner:87 - Not considering increase of write rate limit. calculatedFailureRatio=0.010101010101010102. threshold=0.01
+2019-06-28 08:07:03 INFO  EsAutoTuner:87 - Not considering increase of write rate limit. calculatedFailureRatio=0.010101010101010102. threshold=0.01
+2019-06-28 08:07:03 INFO  AutotuneTest:46 - result4:[1.0, 0.0, 0.0, 1.0]
+2019-06-28 08:07:03 INFO  AutotuneTest:46 - result4:[1.0, 0.0, 0.0, 1.0]
+2019-06-28 08:07:03 INFO  EsRestPlugin:170 - ES_REST plugin initialized: Cluster: google.com
+Test Index URL: http://google.com:9200/junkIndexName/default
+2019-06-28 08:07:03 INFO  EsRestPlugin:170 - ES_REST plugin initialized: Cluster: google.com
+Test Index URL: http://google.com:9200/junkIndexName/default
+2019-06-28 08:07:03 INFO  EsAutoTuner:87 - Not considering increase of write rate limit. calculatedFailureRatio=0.010101010101010102. threshold=0.01
+2019-06-28 08:07:03 INFO  EsAutoTuner:87 - Not considering increase of write rate limit. calculatedFailureRatio=0.010101010101010102. threshold=0.01
+2019-06-28 08:07:03 INFO  AutotuneTest:56 - result5:[1.0, 0.0, 1.0, 11.0]
+2019-06-28 08:07:03 INFO  AutotuneTest:56 - result5:[1.0, 0.0, 1.0, 11.0]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

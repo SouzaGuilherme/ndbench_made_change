@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.CreateTableTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:06:36" hostname="julia" time="2.275">
+  <properties/>
+  <testcase name="get_whenTableDoesNotExist_createsTable" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.CreateTableTest" time="2.254"/>
+  <testcase name="constructor_whenRcuLessThanOne_throwsIllegalArgumentException" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.CreateTableTest" time="0.002"/>
+  <testcase name="constructor_whenWcuLessThanOne_throwsIllegalArgumentException" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.CreateTableTest" time="0.001"/>
+  <testcase name="constructor_whenPartitionKeyNameIsNull_throwsIllegalArgumentException" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.CreateTableTest" time="0.001"/>
+  <testcase name="constructor_whenPartitionKeyNameIsEmpty_throwsIllegalArgumentException" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.CreateTableTest" time="0.001"/>
+  <testcase name="constructor_whenTableNameIsNull_throwsIllegalArgumentException" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.CreateTableTest" time="0.001"/>
+  <testcase name="get_whenTableAlreadyExists_doesNotCreateTable" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.CreateTableTest" time="0.002"/>
+  <testcase name="constructor_whenDynamoDbIsNull_throwsNullPointerException" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.CreateTableTest" time="0.001"/>
+  <testcase name="constructor_whenTableNameIsEmpty_throwsIllegalArgumentException" classname="com.netflix.ndbench.plugin.dynamodb.operations.controlplane.CreateTableTest" time="0.006"/>
+  <system-out><![CDATA[log4j: Parsing for [root] with value=[INFO, R, stdout].
+log4j: Level token is [INFO].
+log4j: Category root set to INFO
+log4j: Parsing appender named "R".
+log4j: Parsing layout options for "R".
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss.SSSS} %p %t %c %m%n].
+log4j: End of parsing for "R".
+log4j: Setting property [file] to [NdBench.log].
+log4j: Setting property [maxFileSize] to [5MB].
+log4j: Setting property [maxBackupIndex] to [5].
+log4j: setFile called: NdBench.log, true
+log4j: setFile ended
+log4j: Parsed "R" options.
+log4j: Parsing appender named "stdout".
+log4j: Parsing layout options for "stdout".
+log4j: Setting property [conversionPattern] to [%5p %d{HH:mm:ss,SSS} %m%n].
+log4j: End of parsing for "stdout".
+log4j: Parsed "stdout" options.
+log4j: Finished configuring.
+ INFO 08:06:38,407 Creating Table: asdf
+ INFO 08:06:38,556 Creating Table: asdf
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

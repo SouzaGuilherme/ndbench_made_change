@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.core.DataBackfillTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:06:19" hostname="julia" time="0.817">
+  <properties/>
+  <testcase name="getKeyRangesPerThread" classname="com.netflix.ndbench.core.DataBackfillTest" time="0.281"/>
+  <testcase name="backfillAsync" classname="com.netflix.ndbench.core.DataBackfillTest" time="0.096"/>
+  <testcase name="backfillAsyncRestart" classname="com.netflix.ndbench.core.DataBackfillTest" time="0.244"/>
+  <testcase name="backfill" classname="com.netflix.ndbench.core.DataBackfillTest" time="0.196"/>
+  <system-out><![CDATA[ INFO 08:06:19,596 DISCOVERY_ENV is set to: null
+ INFO 08:06:19,605 Starting 'LifecycleManager@1919587925'
+ INFO 08:06:19,622 DISCOVERY_ENV is set to: null
+ INFO 08:06:19,679 Adding listener 'SafeLifecycleListener@1777692672 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@46415a78]'
+ INFO 08:06:19,680 Adding listener 'SafeLifecycleListener@81619958 [LifecycleProvisionListener@1225342288]'
+ INFO 08:06:19,687 Configuration with name'RUNTIME' already exists
+ INFO 08:06:19,691 Initializing ConfigurationInjectingListener
+ INFO 08:06:19,702 Still initializing sample data for values. So far: 0 /100
+ INFO 08:06:19,703 Duration to initialize the dataset of random data (ISO-8601 format): PT0.001S
+ INFO 08:06:19,704 Scheduling a thread to modify random values from generated values data set
+ INFO 08:06:19,706 Setting rate Limit for: readLimiter to: 45
+ INFO 08:06:19,706 Setting rate Limit for: writeLimiter to: 35
+ INFO 08:06:19,707 Started 'LifecycleManager@1919587925'
+ INFO 08:06:19,708 Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@46415a78'
+ INFO 08:06:19,709 Starting 'LifecycleProvisionListener@1225342288'
+ INFO 08:06:19,711 Injector created successfully 
+ INFO 08:06:19,724 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,725 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,731 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,731 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,733 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,733 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,734 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,735 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,737 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,737 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,738 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,739 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,741 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,742 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,750 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,751 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,758 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,760 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,762 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,762 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,769 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,771 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,785 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,786 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,787 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,787 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,789 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,789 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,790 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,790 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,793 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,793 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,794 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,795 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,796 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,796 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,797 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,797 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,802 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,802 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,803 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,804 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,805 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,805 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,806 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,807 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,808 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,808 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,809 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,809 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,811 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,811 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,813 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,814 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,817 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,818 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,829 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,829 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,830 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,831 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,834 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,835 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,838 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,838 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,841 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,842 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,844 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,844 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,845 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,846 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,847 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,847 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,855 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,855 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,858 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,858 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,860 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,861 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,863 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,863 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,868 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,868 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,870 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,871 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,872 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,872 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,873 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,874 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,875 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,876 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,877 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,877 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,878 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,879 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,880 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,880 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,887 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,887 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,888 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,888 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,889 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,889 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,890 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,891 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,892 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,892 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,893 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,893 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,896 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,896 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,900 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,901 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,903 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,903 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,904 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,904 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,907 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,908 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,911 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,911 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,914 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,918 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,921 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,921 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,923 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,923 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,924 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,924 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,925 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,925 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,926 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,926 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,927 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,927 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,929 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,929 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,933 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,934 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,935 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,936 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,937 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,938 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,940 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,941 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,942 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,943 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,945 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,945 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,947 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,952 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,953 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,954 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,955 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,956 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,957 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,957 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,959 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,959 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,960 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,961 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,962 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,963 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,964 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,964 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,967 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,967 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,968 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,968 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 2
+(50,52)
+(52,54)
+(54,56)
+(56,58)
+(58,60)
+(60,62)
+(62,64)
+(64,66)
+(66,68)
+(68,70)
+ INFO 08:06:19,969 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,969 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,969 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,970 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,970 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,970 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,971 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,971 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,972 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,972 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,972 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,972 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,973 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,974 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,974 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,974 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,975 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,976 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,977 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,978 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,979 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,980 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,985 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,985 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 3
+(75,77)
+(77,79)
+(79,81)
+(81,83)
+(83,85)
+(85,87)
+(87,89)
+(89,91)
+(91,93)
+(93,95)
+ INFO 08:06:19,987 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,987 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 0
+(0,2)
+(2,4)
+(4,6)
+(6,8)
+(8,10)
+(10,12)
+(12,14)
+(14,16)
+(16,18)
+(18,20)
+ INFO 08:06:19,989 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,989 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,990 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,990 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,991 Num keys (KEYSPACE): 100, Num threads: 10, Num slots: 4
+ INFO 08:06:19,991 MyNode: Num keys to be processed: 25, Num keys per thread: 2, My key slot: 1
+(25,27)
+(27,29)
+(29,31)
+(31,33)
+(33,35)
+(35,37)
+(37,39)
+(39,41)
+(41,43)
+(43,45)
+ INFO 08:06:19,997 Num keys (KEYSPACE): 10000, Num threads: 16, Num slots: 1
+ INFO 08:06:19,997 MyNode: Num keys to be processed: 10000, Num keys per thread: 625, My key slot: 0
+ INFO 08:06:20,094 Num keys (KEYSPACE): 10000, Num threads: 16, Num slots: 1
+ INFO 08:06:20,096 MyNode: Num keys to be processed: 10000, Num keys per thread: 625, My key slot: 0
+ INFO 08:06:20,097 Stopping datafill writer
+ INFO 08:06:20,090 Stopping datafill writer
+ INFO 08:06:20,180 Stopping datafill writer
+ INFO 08:06:20,204 Stopping datafill writer
+ INFO 08:06:20,204 Num keys (KEYSPACE): 10000, Num threads: 16, Num slots: 1
+ INFO 08:06:20,205 MyNode: Num keys to be processed: 10000, Num keys per thread: 625, My key slot: 0
+ INFO 08:06:20,332 Stopping datafill writer
+ INFO 08:06:20,337 Num keys (KEYSPACE): 10000, Num threads: 16, Num slots: 1
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,335 Stopping datafill writer
+ INFO 08:06:20,334 Stopping datafill writer
+ INFO 08:06:20,334 Stopping datafill writer
+ INFO 08:06:20,334 Stopping datafill writer
+ INFO 08:06:20,334 Stopping datafill writer
+ INFO 08:06:20,333 Stopping datafill writer
+ INFO 08:06:20,333 Stopping datafill writer
+ INFO 08:06:20,333 Stopping datafill writer
+ INFO 08:06:20,333 Stopping datafill writer
+ INFO 08:06:20,333 Stopping datafill writer
+ INFO 08:06:20,333 Stopping datafill writer
+ INFO 08:06:20,332 Stopping datafill writer
+ INFO 08:06:20,332 Stopping datafill writer
+ INFO 08:06:20,332 Stopping datafill writer
+ INFO 08:06:20,332 Stopping datafill writer
+ INFO 08:06:20,332 Stopping datafill writer
+ INFO 08:06:20,332 Stopping datafill writer
+ INFO 08:06:20,332 Stopping datafill writer
+ INFO 08:06:20,345 MyNode: Num keys to be processed: 10000, Num keys per thread: 625, My key slot: 0
+ INFO 08:06:20,514 Stopping datafill writer
+ INFO 08:06:20,525 Stopping datafill writer
+ INFO 08:06:20,527 Backfiller waiting to finish
+ INFO 08:06:20,528 Backfiller latch done! in 193 ms
+ INFO 08:06:20,529 Stopping datafill writer
+ INFO 08:06:20,539 Stopping datafill writer
+ INFO 08:06:20,540 Stopping datafill writer
+ INFO 08:06:20,539 Stopping datafill writer
+ INFO 08:06:20,539 Stopping datafill writer
+ INFO 08:06:20,539 Stopping datafill writer
+ INFO 08:06:20,539 Stopping datafill writer
+ INFO 08:06:20,539 Stopping datafill writer
+ INFO 08:06:20,539 Stopping datafill writer
+ INFO 08:06:20,529 Stopping datafill writer
+ INFO 08:06:20,539 Stopping datafill writer
+ INFO 08:06:20,539 Stopping 'LifecycleManager@1919587925'
+ INFO 08:06:20,539 Stopping datafill writer
+ INFO 08:06:20,538 Stopping datafill writer
+ INFO 08:06:20,538 Stopping datafill writer
+ INFO 08:06:20,529 Stopping datafill writer
+ INFO 08:06:20,538 Stopping datafill writer
+ INFO 08:06:20,538 Stopping datafill writer
+ INFO 08:06:20,529 Stopping datafill writer
+ INFO 08:06:20,529 Stopping datafill writer
+ INFO 08:06:20,529 Stopping datafill writer
+ INFO 08:06:20,549 Stopping 'LifecycleProvisionListener@1225342288'
+ INFO 08:06:20,541 Stopping datafill writer
+ INFO 08:06:20,541 Stopping datafill writer
+ INFO 08:06:20,541 Stopping datafill writer
+ INFO 08:06:20,541 Stopping datafill writer
+ INFO 08:06:20,541 Stopping datafill writer
+ INFO 08:06:20,541 Stopping datafill writer
+ INFO 08:06:20,607 LifecycleManager.ListenerCleanupWorker is exiting
+ INFO 08:06:20,678 PreDestroyMonitor.ScopedCleanupWorker is exiting
+ INFO 08:06:20,679 closing PreDestroyMonitor...
+ INFO 08:06:20,680 Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@46415a78'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

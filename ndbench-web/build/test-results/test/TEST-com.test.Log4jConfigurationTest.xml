@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.Log4jConfigurationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:07:12" hostname="julia" time="0.128">
+  <properties/>
+  <testcase name="verifyLog4jPropertiesConfigurationWorksAsExpected" classname="com.test.Log4jConfigurationTest" time="0.128"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

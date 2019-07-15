@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.plugin.dynamodb.configs.ProgrammaticDynamoDBConfigurationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:06:41" hostname="julia" time="0.102">
+  <properties/>
+  <testcase name="testDefaults" classname="com.netflix.ndbench.plugin.dynamodb.configs.ProgrammaticDynamoDBConfigurationTest" time="0.102"/>
+  <system-out><![CDATA[ INFO 08:06:40,224 Starting 'LifecycleManager@902837154'
+ INFO 08:06:41,317 Adding listener 'SafeLifecycleListener@1346427207 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@19ad4326]'
+ INFO 08:06:41,318 Adding listener 'SafeLifecycleListener@192053247 [LifecycleProvisionListener@1461502917]'
+ INFO 08:06:41,348 Configuration with name'RUNTIME' already exists
+ INFO 08:06:41,368 Initializing ConfigurationInjectingListener
+ INFO 08:06:41,387 Started 'LifecycleManager@902837154'
+ INFO 08:06:41,388 Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@19ad4326'
+ INFO 08:06:41,389 Starting 'LifecycleProvisionListener@1461502917'
+ INFO 08:06:41,403 Injector created successfully 
+ INFO 08:06:41,508 Stopping 'LifecycleManager@902837154'
+ INFO 08:06:41,524 Stopping 'LifecycleProvisionListener@1461502917'
+ INFO 08:06:42,236 LifecycleManager.ListenerCleanupWorker is exiting
+ INFO 08:06:42,308 PreDestroyMonitor.ScopedCleanupWorker is exiting
+ INFO 08:06:42,309 closing PreDestroyMonitor...
+ INFO 08:06:42,357 Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@19ad4326'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

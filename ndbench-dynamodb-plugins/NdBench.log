@@ -1,0 +1,759 @@
+2019-06-07 09:22:38.0973 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@2117634441'
+2019-06-07 09:22:39.0494 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1796955811 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@708877b]'
+2019-06-07 09:22:39.0496 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@785292230 [LifecycleProvisionListener@859227295]'
+2019-06-07 09:22:39.0513 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 09:22:39.0524 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 09:22:39.0537 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@2117634441'
+2019-06-07 09:22:39.0538 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@708877b'
+2019-06-07 09:22:39.0538 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@859227295'
+2019-06-07 09:22:39.0547 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 09:22:39.0688 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@2117634441'
+2019-06-07 09:22:39.0689 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@859227295'
+2019-06-07 09:22:39.0991 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 09:22:40.0489 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 09:22:40.0489 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 09:22:40.0510 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@708877b'
+2019-06-07 09:22:40.0528 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1121040776'
+2019-06-07 09:22:40.0595 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1531728700 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60ff1c7e]'
+2019-06-07 09:22:40.0596 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1589060108 [LifecycleProvisionListener@1282038844]'
+2019-06-07 09:22:40.0599 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 09:22:40.0601 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 09:22:40.0603 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1121040776'
+2019-06-07 09:22:40.0603 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60ff1c7e'
+2019-06-07 09:22:40.0603 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1282038844'
+2019-06-07 09:22:40.0607 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 09:22:40.0614 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1121040776'
+2019-06-07 09:22:40.0615 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1282038844'
+2019-06-07 09:22:41.0535 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 09:22:41.0595 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 09:22:41.0596 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 09:22:41.0597 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60ff1c7e'
+2019-06-07 09:22:41.0649 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-07 09:22:41.0670 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@714589983'
+2019-06-07 09:22:41.0706 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-07 09:22:41.0784 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1184053449 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3c787257]'
+2019-06-07 09:22:41.0784 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1821253734 [LifecycleProvisionListener@529256554]'
+2019-06-07 09:22:41.0788 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 09:22:41.0790 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 09:22:42.0000 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-07 09:22:42.0006 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.003S
+2019-06-07 09:22:42.0008 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-07 09:22:42.0028 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-07 09:22:42.0033 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-07 09:22:42.0034 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@714589983'
+2019-06-07 09:22:42.0034 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3c787257'
+2019-06-07 09:22:42.0034 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@529256554'
+2019-06-07 09:22:42.0035 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 09:22:44.0599 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-07 09:22:44.0604 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-07 09:22:45.0378 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 07 09:22:45 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-07 09:22:45.0569 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-07 09:22:45.0570 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-07 09:22:45.0709 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 07 09:22:45 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-07 09:22:45.0884 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@714589983'
+2019-06-07 09:22:45.0885 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@529256554'
+2019-06-07 09:22:46.0686 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 09:22:46.0796 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 09:22:46.0797 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 09:22:46.0798 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3c787257'
+2019-06-07 09:22:46.0948 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-07 09:22:46.0968 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-07 09:22:46.0989 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 09:22:46.0990 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-07 09:22:46.0995 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 09:22:46.0995 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-07 09:22:47.0002 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 09:22:47.0002 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-07 09:22:47.0009 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-07 09:22:47.0010 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-07 09:22:47.0010 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-07 09:29:54.0215 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1659558171'
+2019-06-07 09:29:54.0703 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@185497701 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4b5dd478]'
+2019-06-07 09:29:54.0704 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1215031068 [LifecycleProvisionListener@1635399884]'
+2019-06-07 09:29:54.0719 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 09:29:54.0729 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 09:29:54.0741 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1659558171'
+2019-06-07 09:29:54.0741 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4b5dd478'
+2019-06-07 09:29:54.0742 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1635399884'
+2019-06-07 09:29:54.0750 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 09:29:54.0855 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1659558171'
+2019-06-07 09:29:54.0855 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1635399884'
+2019-06-07 09:29:55.0241 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 09:29:55.0699 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 09:29:55.0700 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 09:29:55.0719 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4b5dd478'
+2019-06-07 09:29:55.0740 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1397156536'
+2019-06-07 09:29:55.0797 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@35931786 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75018c68]'
+2019-06-07 09:29:55.0797 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1398443467 [LifecycleProvisionListener@1251709563]'
+2019-06-07 09:29:55.0800 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 09:29:55.0802 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 09:29:55.0804 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1397156536'
+2019-06-07 09:29:55.0804 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75018c68'
+2019-06-07 09:29:55.0804 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1251709563'
+2019-06-07 09:29:55.0807 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 09:29:55.0819 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1397156536'
+2019-06-07 09:29:55.0820 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1251709563'
+2019-06-07 09:29:56.0745 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 09:29:56.0803 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 09:29:56.0804 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 09:29:56.0805 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75018c68'
+2019-06-07 09:29:56.0889 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-07 09:29:56.0905 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1489389445'
+2019-06-07 09:29:56.0941 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-07 09:29:57.0014 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1733888186 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2428d6ce]'
+2019-06-07 09:29:57.0014 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@877264554 [LifecycleProvisionListener@144131482]'
+2019-06-07 09:29:57.0018 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 09:29:57.0021 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 09:29:57.0214 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-07 09:29:57.0220 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.004S
+2019-06-07 09:29:57.0221 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-07 09:29:57.0226 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-07 09:29:57.0232 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-07 09:29:57.0236 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1489389445'
+2019-06-07 09:29:57.0236 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2428d6ce'
+2019-06-07 09:29:57.0237 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@144131482'
+2019-06-07 09:29:57.0240 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 09:29:59.0722 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-07 09:29:59.0729 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-07 09:30:00.0492 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 07 09:30:00 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-07 09:30:00.0719 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-07 09:30:00.0719 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-07 09:30:00.0780 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 07 09:30:00 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-07 09:30:00.0922 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1489389445'
+2019-06-07 09:30:00.0923 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@144131482'
+2019-06-07 09:30:01.0021 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 09:30:01.0022 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 09:30:01.0023 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2428d6ce'
+2019-06-07 09:30:01.0108 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-07 09:30:01.0127 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-07 09:30:01.0153 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 09:30:01.0154 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-07 09:30:01.0161 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 09:30:01.0161 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-07 09:30:01.0167 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 09:30:01.0168 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-07 09:30:01.0212 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-07 09:30:01.0213 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-07 09:30:01.0213 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-07 09:30:01.0914 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 10:02:12.0282 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1659558171'
+2019-06-07 10:02:12.0674 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@185497701 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4b5dd478]'
+2019-06-07 10:02:12.0676 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1215031068 [LifecycleProvisionListener@1635399884]'
+2019-06-07 10:02:12.0700 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 10:02:12.0711 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 10:02:12.0722 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1659558171'
+2019-06-07 10:02:12.0723 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4b5dd478'
+2019-06-07 10:02:12.0723 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1635399884'
+2019-06-07 10:02:12.0731 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 10:02:12.0818 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1659558171'
+2019-06-07 10:02:12.0818 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1635399884'
+2019-06-07 10:02:13.0290 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 10:02:13.0671 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 10:02:13.0672 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 10:02:13.0703 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4b5dd478'
+2019-06-07 10:02:13.0722 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1397156536'
+2019-06-07 10:02:13.0779 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@35931786 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75018c68]'
+2019-06-07 10:02:13.0779 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1398443467 [LifecycleProvisionListener@1251709563]'
+2019-06-07 10:02:13.0782 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 10:02:13.0784 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 10:02:13.0786 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1397156536'
+2019-06-07 10:02:13.0787 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75018c68'
+2019-06-07 10:02:13.0787 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1251709563'
+2019-06-07 10:02:13.0789 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 10:02:13.0794 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1397156536'
+2019-06-07 10:02:13.0795 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1251709563'
+2019-06-07 10:02:14.0723 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 10:02:14.0785 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 10:02:14.0786 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 10:02:14.0787 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75018c68'
+2019-06-07 10:02:14.0873 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-07 10:02:14.0906 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1489389445'
+2019-06-07 10:02:14.0934 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-07 10:02:15.0001 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1733888186 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2428d6ce]'
+2019-06-07 10:02:15.0002 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@877264554 [LifecycleProvisionListener@144131482]'
+2019-06-07 10:02:15.0004 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 10:02:15.0006 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 10:02:15.0227 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-07 10:02:15.0233 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.004S
+2019-06-07 10:02:15.0235 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-07 10:02:15.0239 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-07 10:02:15.0244 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-07 10:02:15.0244 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1489389445'
+2019-06-07 10:02:15.0244 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2428d6ce'
+2019-06-07 10:02:15.0245 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@144131482'
+2019-06-07 10:02:15.0246 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 10:02:17.0554 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-07 10:02:17.0560 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-07 10:02:18.0269 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 07 10:02:18 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-07 10:02:18.0497 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-07 10:02:18.0499 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-07 10:02:18.0583 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 07 10:02:18 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-07 10:02:18.0750 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1489389445'
+2019-06-07 10:02:18.0750 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@144131482'
+2019-06-07 10:02:18.0910 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 10:02:19.0019 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 10:02:19.0019 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 10:02:19.0020 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2428d6ce'
+2019-06-07 10:02:19.0098 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-07 10:02:19.0110 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-07 10:02:19.0139 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 10:02:19.0140 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-07 10:02:19.0145 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 10:02:19.0145 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-07 10:02:19.0149 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 10:02:19.0150 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-07 10:02:19.0154 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-07 10:02:19.0155 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-07 10:02:19.0155 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-07 11:06:56.0098 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1659558171'
+2019-06-07 11:06:56.0446 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@185497701 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4b5dd478]'
+2019-06-07 11:06:56.0447 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1215031068 [LifecycleProvisionListener@1635399884]'
+2019-06-07 11:06:56.0463 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 11:06:56.0472 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 11:06:56.0483 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1659558171'
+2019-06-07 11:06:56.0484 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4b5dd478'
+2019-06-07 11:06:56.0484 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1635399884'
+2019-06-07 11:06:56.0492 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 11:06:56.0586 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1659558171'
+2019-06-07 11:06:56.0587 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1635399884'
+2019-06-07 11:06:57.0102 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 11:06:57.0442 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 11:06:57.0443 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 11:06:57.0473 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4b5dd478'
+2019-06-07 11:06:57.0489 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1397156536'
+2019-06-07 11:06:57.0541 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@35931786 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75018c68]'
+2019-06-07 11:06:57.0541 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1398443467 [LifecycleProvisionListener@1251709563]'
+2019-06-07 11:06:57.0544 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 11:06:57.0546 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 11:06:57.0547 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1397156536'
+2019-06-07 11:06:57.0548 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75018c68'
+2019-06-07 11:06:57.0548 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1251709563'
+2019-06-07 11:06:57.0550 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 11:06:57.0555 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1397156536'
+2019-06-07 11:06:57.0556 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1251709563'
+2019-06-07 11:06:58.0492 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 11:06:58.0551 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 11:06:58.0553 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 11:06:58.0554 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75018c68'
+2019-06-07 11:06:58.0602 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-07 11:06:58.0611 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1489389445'
+2019-06-07 11:06:58.0633 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-07 11:06:58.0701 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1733888186 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2428d6ce]'
+2019-06-07 11:06:58.0701 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@877264554 [LifecycleProvisionListener@144131482]'
+2019-06-07 11:06:58.0704 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-07 11:06:58.0706 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-07 11:06:58.0932 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-07 11:06:58.0939 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.004S
+2019-06-07 11:06:58.0941 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-07 11:06:58.0946 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-07 11:06:58.0952 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-07 11:06:58.0953 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1489389445'
+2019-06-07 11:06:58.0953 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2428d6ce'
+2019-06-07 11:06:58.0953 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@144131482'
+2019-06-07 11:06:58.0954 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-07 11:07:01.0569 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-07 11:07:01.0575 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-07 11:07:02.0353 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 07 11:07:02 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-07 11:07:02.0563 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-07 11:07:02.0564 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-07 11:07:02.0625 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 07 11:07:02 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-07 11:07:02.0780 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1489389445'
+2019-06-07 11:07:02.0781 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@144131482'
+2019-06-07 11:07:03.0617 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-07 11:07:03.0702 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-07 11:07:03.0702 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-07 11:07:03.0704 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2428d6ce'
+2019-06-07 11:07:03.0772 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-07 11:07:03.0780 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-07 11:07:03.0797 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 11:07:03.0797 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-07 11:07:03.0803 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 11:07:03.0804 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-07 11:07:03.0808 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-07 11:07:03.0809 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-07 11:07:03.0814 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-07 11:07:03.0817 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-07 11:07:03.0817 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-11 16:32:03.0075 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@2117634441'
+2019-06-11 16:32:03.0465 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1796955811 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@708877b]'
+2019-06-11 16:32:03.0467 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@785292230 [LifecycleProvisionListener@859227295]'
+2019-06-11 16:32:03.0481 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-11 16:32:03.0488 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-11 16:32:03.0500 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@2117634441'
+2019-06-11 16:32:03.0500 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@708877b'
+2019-06-11 16:32:03.0500 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@859227295'
+2019-06-11 16:32:03.0507 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-11 16:32:03.0599 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@2117634441'
+2019-06-11 16:32:03.0600 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@859227295'
+2019-06-11 16:32:04.0103 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-11 16:32:04.0461 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-11 16:32:04.0462 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-11 16:32:04.0514 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@708877b'
+2019-06-11 16:32:04.0550 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1121040776'
+2019-06-11 16:32:04.0635 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1531728700 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60ff1c7e]'
+2019-06-11 16:32:04.0635 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1589060108 [LifecycleProvisionListener@1282038844]'
+2019-06-11 16:32:04.0639 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-11 16:32:04.0641 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-11 16:32:04.0643 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1121040776'
+2019-06-11 16:32:04.0644 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60ff1c7e'
+2019-06-11 16:32:04.0645 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1282038844'
+2019-06-11 16:32:04.0646 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-11 16:32:04.0651 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1121040776'
+2019-06-11 16:32:04.0651 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1282038844'
+2019-06-11 16:32:05.0563 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-11 16:32:05.0639 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-11 16:32:05.0640 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-11 16:32:05.0642 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60ff1c7e'
+2019-06-11 16:32:05.0705 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-11 16:32:05.0718 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@714589983'
+2019-06-11 16:32:05.0737 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-11 16:32:05.0814 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1184053449 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3c787257]'
+2019-06-11 16:32:05.0814 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1821253734 [LifecycleProvisionListener@529256554]'
+2019-06-11 16:32:05.0817 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-11 16:32:05.0819 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-11 16:32:06.0021 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-11 16:32:06.0027 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.003S
+2019-06-11 16:32:06.0028 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-11 16:32:06.0033 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-11 16:32:06.0039 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-11 16:32:06.0040 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@714589983'
+2019-06-11 16:32:06.0040 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3c787257'
+2019-06-11 16:32:06.0041 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@529256554'
+2019-06-11 16:32:06.0042 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-11 16:32:09.0462 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-11 16:32:09.0469 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-11 16:32:10.0307 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Tue Jun 11 16:32:10 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-11 16:32:10.0507 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-11 16:32:10.0508 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-11 16:32:10.0578 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Tue Jun 11 16:32:10 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-11 16:32:10.0734 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@714589983'
+2019-06-11 16:32:10.0735 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@529256554'
+2019-06-11 16:32:10.0826 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-11 16:32:10.0827 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-11 16:32:10.0827 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3c787257'
+2019-06-11 16:32:10.0882 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-11 16:32:10.0891 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-11 16:32:10.0908 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-11 16:32:10.0909 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-11 16:32:10.0913 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-11 16:32:10.0913 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-11 16:32:10.0918 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-11 16:32:10.0918 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-11 16:32:10.0926 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-11 16:32:10.0926 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-11 16:32:10.0926 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-11 16:32:11.0734 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-11 18:19:31.0878 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@190097406'
+2019-06-11 18:19:32.0189 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1709090843 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@54c07985]'
+2019-06-11 18:19:32.0191 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1420803035 [LifecycleProvisionListener@1272167175]'
+2019-06-11 18:19:32.0205 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-11 18:19:32.0214 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-11 18:19:32.0226 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@190097406'
+2019-06-11 18:19:32.0226 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@54c07985'
+2019-06-11 18:19:32.0227 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1272167175'
+2019-06-11 18:19:32.0234 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-11 18:19:32.0297 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@190097406'
+2019-06-11 18:19:32.0298 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1272167175'
+2019-06-11 18:19:32.0881 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-11 18:19:33.0178 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-11 18:19:33.0179 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-11 18:19:33.0195 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@54c07985'
+2019-06-11 18:19:33.0209 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@541723496'
+2019-06-11 18:19:33.0262 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1923410930 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@12187891]'
+2019-06-11 18:19:33.0262 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@169097165 [LifecycleProvisionListener@402903756]'
+2019-06-11 18:19:33.0265 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-11 18:19:33.0267 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-11 18:19:33.0268 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@541723496'
+2019-06-11 18:19:33.0269 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@12187891'
+2019-06-11 18:19:33.0269 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@402903756'
+2019-06-11 18:19:33.0270 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-11 18:19:33.0279 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@541723496'
+2019-06-11 18:19:33.0279 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@402903756'
+2019-06-11 18:19:34.0209 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-11 18:19:34.0261 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-11 18:19:34.0262 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-11 18:19:34.0263 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@12187891'
+2019-06-11 18:19:34.0522 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-11 18:19:34.0544 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-11 18:19:34.0566 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-11 18:19:34.0567 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-11 18:19:34.0569 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-11 18:19:34.0570 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-11 18:19:34.0572 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-11 18:19:34.0572 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-11 18:19:34.0592 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-11 18:19:34.0630 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@314194161'
+2019-06-11 18:19:34.0643 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-11 18:19:34.0703 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1129391779 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2b40b8d9]'
+2019-06-11 18:19:34.0704 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1078346260 [LifecycleProvisionListener@1029910840]'
+2019-06-11 18:19:34.0706 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-11 18:19:34.0707 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-11 18:19:34.0810 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-11 18:19:34.0815 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.003S
+2019-06-11 18:19:34.0816 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-11 18:19:34.0821 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-11 18:19:34.0826 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-11 18:19:34.0827 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@314194161'
+2019-06-11 18:19:34.0827 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2b40b8d9'
+2019-06-11 18:19:34.0827 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1029910840'
+2019-06-11 18:19:34.0828 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-11 18:19:36.0254 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-11 18:19:36.0255 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-11 18:19:36.0827 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Tue Jun 11 18:19:36 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-11 18:19:37.0012 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-11 18:19:37.0012 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-11 18:19:37.0082 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Tue Jun 11 18:19:37 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-11 18:19:37.0254 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@314194161'
+2019-06-11 18:19:37.0255 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1029910840'
+2019-06-11 18:19:37.0631 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-11 18:19:37.0707 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-11 18:19:37.0708 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-11 18:19:37.0708 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2b40b8d9'
+2019-06-11 18:19:37.0715 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-11 18:19:37.0715 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-11 18:19:37.0715 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-11 18:22:07.0306 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@190097406'
+2019-06-11 18:22:07.0602 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1709090843 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@54c07985]'
+2019-06-11 18:22:07.0604 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1420803035 [LifecycleProvisionListener@1272167175]'
+2019-06-11 18:22:07.0619 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-11 18:22:07.0628 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-11 18:22:07.0638 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@190097406'
+2019-06-11 18:22:07.0639 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@54c07985'
+2019-06-11 18:22:07.0639 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1272167175'
+2019-06-11 18:22:07.0647 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-11 18:22:07.0724 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@190097406'
+2019-06-11 18:22:07.0724 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1272167175'
+2019-06-11 18:22:08.0309 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-11 18:22:08.0598 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-11 18:22:08.0599 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-11 18:22:08.0615 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@54c07985'
+2019-06-11 18:22:08.0632 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@541723496'
+2019-06-11 18:22:08.0683 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1923410930 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@12187891]'
+2019-06-11 18:22:08.0683 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@169097165 [LifecycleProvisionListener@402903756]'
+2019-06-11 18:22:08.0686 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-11 18:22:08.0688 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-11 18:22:08.0689 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@541723496'
+2019-06-11 18:22:08.0689 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@12187891'
+2019-06-11 18:22:08.0690 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@402903756'
+2019-06-11 18:22:08.0691 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-11 18:22:08.0700 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@541723496'
+2019-06-11 18:22:08.0700 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@402903756'
+2019-06-11 18:22:09.0632 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-11 18:22:09.0682 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-11 18:22:09.0683 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-11 18:22:09.0684 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@12187891'
+2019-06-11 18:22:09.0946 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-11 18:22:09.0973 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-11 18:22:09.0999 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-11 18:22:10.0000 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-11 18:22:10.0004 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-11 18:22:10.0005 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-11 18:22:10.0008 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-11 18:22:10.0009 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-11 18:22:10.0028 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-11 18:22:10.0034 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@314194161'
+2019-06-11 18:22:10.0047 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-11 18:22:10.0138 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1129391779 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2b40b8d9]'
+2019-06-11 18:22:10.0138 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1078346260 [LifecycleProvisionListener@1029910840]'
+2019-06-11 18:22:10.0140 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-11 18:22:10.0142 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-11 18:22:10.0265 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-11 18:22:10.0269 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.002S
+2019-06-11 18:22:10.0269 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-11 18:22:10.0273 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-11 18:22:10.0277 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-11 18:22:10.0278 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@314194161'
+2019-06-11 18:22:10.0278 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2b40b8d9'
+2019-06-11 18:22:10.0278 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1029910840'
+2019-06-11 18:22:10.0279 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-11 18:22:11.0734 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-11 18:22:11.0735 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-11 18:22:12.0328 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Tue Jun 11 18:22:12 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-11 18:22:12.0510 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-11 18:22:12.0510 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-11 18:22:12.0583 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Tue Jun 11 18:22:12 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-11 18:22:12.0756 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@314194161'
+2019-06-11 18:22:12.0757 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1029910840'
+2019-06-11 18:22:13.0035 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-11 18:22:13.0138 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-11 18:22:13.0139 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-11 18:22:13.0139 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@2b40b8d9'
+2019-06-11 18:22:13.0154 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-11 18:22:13.0155 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-11 18:22:13.0155 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-12 09:09:42.0752 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-12 09:09:42.0894 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-12 09:09:42.0982 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-12 09:09:42.0983 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-12 09:09:42.0991 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-12 09:09:42.0992 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-12 09:09:43.0003 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-12 09:09:43.0004 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-12 09:09:44.0163 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1237909156'
+2019-06-12 09:09:44.0906 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@374743463 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@5e44292f]'
+2019-06-12 09:09:44.0907 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@353754004 [LifecycleProvisionListener@1665987061]'
+2019-06-12 09:09:44.0938 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-12 09:09:44.0953 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-12 09:09:44.0972 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1237909156'
+2019-06-12 09:09:44.0973 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@5e44292f'
+2019-06-12 09:09:44.0973 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1665987061'
+2019-06-12 09:09:44.0988 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-12 09:09:45.0071 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1237909156'
+2019-06-12 09:09:45.0073 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1665987061'
+2019-06-12 09:09:45.0169 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-12 09:09:45.0899 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-12 09:09:45.0900 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-12 09:09:45.0928 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@5e44292f'
+2019-06-12 09:09:45.0961 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1741626721'
+2019-06-12 09:09:46.0070 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@184558779 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3eaa899e]'
+2019-06-12 09:09:46.0071 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@544926619 [LifecycleProvisionListener@1318503770]'
+2019-06-12 09:09:46.0076 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-12 09:09:46.0081 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-12 09:09:46.0083 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1741626721'
+2019-06-12 09:09:46.0084 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3eaa899e'
+2019-06-12 09:09:46.0085 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1318503770'
+2019-06-12 09:09:46.0087 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-12 09:09:46.0098 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1741626721'
+2019-06-12 09:09:46.0098 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1318503770'
+2019-06-12 09:09:46.0966 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-12 09:09:47.0070 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-12 09:09:47.0071 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-12 09:09:47.0072 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3eaa899e'
+2019-06-12 09:09:47.0124 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-12 09:09:47.0221 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@495738634'
+2019-06-12 09:09:47.0251 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-12 09:09:47.0408 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@18642897 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75c13184]'
+2019-06-12 09:09:47.0408 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@596146143 [LifecycleProvisionListener@713382207]'
+2019-06-12 09:09:47.0416 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-12 09:09:47.0420 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-12 09:09:47.0785 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-12 09:09:47.0804 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.014S
+2019-06-12 09:09:47.0806 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-12 09:09:47.0817 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-12 09:09:47.0832 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-12 09:09:47.0833 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@495738634'
+2019-06-12 09:09:47.0834 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75c13184'
+2019-06-12 09:09:47.0836 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@713382207'
+2019-06-12 09:09:47.0839 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-12 09:09:51.0980 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-12 09:09:51.0980 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-12 09:09:53.0461 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Wed Jun 12 09:09:53 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-12 09:09:53.0802 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-12 09:09:53.0803 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-12 09:09:53.0930 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Wed Jun 12 09:09:53 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-12 09:09:54.0112 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@495738634'
+2019-06-12 09:09:54.0112 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@713382207'
+2019-06-12 09:09:54.0223 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-12 09:09:54.0422 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-12 09:09:54.0423 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-12 09:09:54.0424 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75c13184'
+2019-06-12 09:09:54.0432 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-12 09:09:54.0433 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-12 09:09:54.0434 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-12 10:07:05.0214 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-12 10:07:05.0317 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-12 10:07:05.0407 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-12 10:07:05.0409 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-12 10:07:05.0418 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-12 10:07:05.0419 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-12 10:07:05.0449 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-12 10:07:05.0451 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-12 10:07:06.0706 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1237909156'
+2019-06-12 10:07:07.0707 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@374743463 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@5e44292f]'
+2019-06-12 10:07:07.0710 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@353754004 [LifecycleProvisionListener@1665987061]'
+2019-06-12 10:07:07.0744 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-12 10:07:07.0767 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-12 10:07:07.0796 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1237909156'
+2019-06-12 10:07:07.0797 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@5e44292f'
+2019-06-12 10:07:07.0798 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1665987061'
+2019-06-12 10:07:07.0821 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-12 10:07:07.0932 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1237909156'
+2019-06-12 10:07:07.0933 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1665987061'
+2019-06-12 10:07:08.0697 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-12 10:07:08.0698 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-12 10:07:08.0715 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-12 10:07:08.0737 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@5e44292f'
+2019-06-12 10:07:08.0768 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1741626721'
+2019-06-12 10:07:08.0920 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@184558779 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3eaa899e]'
+2019-06-12 10:07:08.0920 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@544926619 [LifecycleProvisionListener@1318503770]'
+2019-06-12 10:07:08.0928 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-12 10:07:08.0933 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-12 10:07:08.0937 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1741626721'
+2019-06-12 10:07:08.0937 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3eaa899e'
+2019-06-12 10:07:08.0938 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1318503770'
+2019-06-12 10:07:08.0940 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-12 10:07:08.0960 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1741626721'
+2019-06-12 10:07:08.0961 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1318503770'
+2019-06-12 10:07:09.0781 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-12 10:07:09.0929 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-12 10:07:09.0930 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-12 10:07:09.0932 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@3eaa899e'
+2019-06-12 10:07:10.0066 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-12 10:07:10.0084 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@495738634'
+2019-06-12 10:07:10.0129 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-12 10:07:10.0311 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@18642897 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75c13184]'
+2019-06-12 10:07:10.0338 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@596146143 [LifecycleProvisionListener@713382207]'
+2019-06-12 10:07:10.0348 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-12 10:07:10.0356 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-12 10:07:10.0697 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-12 10:07:10.0708 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.006S
+2019-06-12 10:07:10.0711 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-12 10:07:10.0722 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-12 10:07:10.0735 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-12 10:07:10.0736 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@495738634'
+2019-06-12 10:07:10.0736 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75c13184'
+2019-06-12 10:07:10.0737 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@713382207'
+2019-06-12 10:07:10.0739 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-12 10:07:14.0982 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-12 10:07:14.0983 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-12 10:07:16.0943 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Wed Jun 12 10:07:16 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-12 10:07:17.0257 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-12 10:07:17.0258 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-12 10:07:17.0406 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Wed Jun 12 10:07:17 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-12 10:07:17.0593 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@495738634'
+2019-06-12 10:07:17.0594 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@713382207'
+2019-06-12 10:07:18.0091 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-12 10:07:18.0313 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-12 10:07:18.0314 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-12 10:07:18.0315 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@75c13184'
+2019-06-12 10:07:18.0321 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-12 10:07:18.0322 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-12 10:07:18.0322 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-28 07:59:45.0439 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-28 07:59:45.0566 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-28 07:59:45.0647 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-28 07:59:45.0648 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-28 07:59:45.0656 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-28 07:59:45.0657 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-28 07:59:45.0667 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-28 07:59:45.0669 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-28 07:59:47.0208 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1178819357'
+2019-06-28 07:59:47.0911 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@882919956 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@17fd78d6]'
+2019-06-28 07:59:47.0913 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@2049140577 [LifecycleProvisionListener@2001228416]'
+2019-06-28 07:59:47.0948 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-28 07:59:47.0972 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-28 07:59:48.0021 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1178819357'
+2019-06-28 07:59:48.0021 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@17fd78d6'
+2019-06-28 07:59:48.0022 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@2001228416'
+2019-06-28 07:59:48.0040 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-28 07:59:48.0165 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1178819357'
+2019-06-28 07:59:48.0166 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@2001228416'
+2019-06-28 07:59:48.0213 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-28 07:59:48.0903 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-28 07:59:48.0904 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-28 07:59:48.0960 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@17fd78d6'
+2019-06-28 07:59:48.0993 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1256673301'
+2019-06-28 07:59:49.0093 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1109636799 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@7ff2b594]'
+2019-06-28 07:59:49.0094 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@789832116 [LifecycleProvisionListener@984101017]'
+2019-06-28 07:59:49.0100 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-28 07:59:49.0103 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-28 07:59:49.0106 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1256673301'
+2019-06-28 07:59:49.0106 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@7ff2b594'
+2019-06-28 07:59:49.0107 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@984101017'
+2019-06-28 07:59:49.0110 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-28 07:59:49.0120 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1256673301'
+2019-06-28 07:59:49.0121 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@984101017'
+2019-06-28 07:59:50.0004 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-28 07:59:50.0100 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-28 07:59:50.0101 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-28 07:59:50.0102 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@7ff2b594'
+2019-06-28 07:59:50.0168 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-28 07:59:50.0202 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@592130932'
+2019-06-28 07:59:50.0257 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-28 07:59:50.0669 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1302497405 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@b260b0f]'
+2019-06-28 07:59:50.0669 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@89308677 [LifecycleProvisionListener@1673907476]'
+2019-06-28 07:59:50.0677 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-28 07:59:50.0683 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-28 07:59:51.0083 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-28 07:59:51.0104 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.009S
+2019-06-28 07:59:51.0106 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-28 07:59:51.0121 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-28 07:59:51.0573 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-28 07:59:51.0575 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@592130932'
+2019-06-28 07:59:51.0575 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@b260b0f'
+2019-06-28 07:59:51.0576 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1673907476'
+2019-06-28 07:59:51.0578 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-28 07:59:56.0675 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-28 07:59:56.0676 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-28 07:59:58.0300 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 28 07:59:58 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-28 07:59:58.0618 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-28 07:59:58.0628 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-28 07:59:58.0803 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 28 07:59:58 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-28 07:59:58.0978 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@592130932'
+2019-06-28 07:59:58.0978 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1673907476'
+2019-06-28 07:59:59.0247 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-28 07:59:59.0671 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-28 07:59:59.0672 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-28 07:59:59.0672 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@b260b0f'
+2019-06-28 07:59:59.0679 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-28 07:59:59.0679 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-28 07:59:59.0680 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-28 08:06:38.0407 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-28 08:06:38.0556 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: asdf
+2019-06-28 08:06:38.0656 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-28 08:06:38.0658 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Table was already deleted
+2019-06-28 08:06:38.0671 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-28 08:06:38.0679 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-28 08:06:38.0705 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Issuing DeleteTable request for asdf
+2019-06-28 08:06:38.0707 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.DeleteDynamoDBTable Waiting for asdf to be deleted...this may take a while...
+2019-06-28 08:06:40.0224 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@902837154'
+2019-06-28 08:06:41.0317 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1346427207 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@19ad4326]'
+2019-06-28 08:06:41.0318 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@192053247 [LifecycleProvisionListener@1461502917]'
+2019-06-28 08:06:41.0348 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-28 08:06:41.0368 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-28 08:06:41.0387 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@902837154'
+2019-06-28 08:06:41.0388 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@19ad4326'
+2019-06-28 08:06:41.0389 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1461502917'
+2019-06-28 08:06:41.0403 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-28 08:06:41.0508 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@902837154'
+2019-06-28 08:06:41.0524 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1461502917'
+2019-06-28 08:06:42.0236 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-28 08:06:42.0308 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-28 08:06:42.0309 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-28 08:06:42.0357 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@19ad4326'
+2019-06-28 08:06:42.0387 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@1147436029'
+2019-06-28 08:06:42.0501 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1085292220 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60561ee8]'
+2019-06-28 08:06:42.0501 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@1704814257 [LifecycleProvisionListener@1773820699]'
+2019-06-28 08:06:42.0508 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-28 08:06:42.0513 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-28 08:06:42.0515 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@1147436029'
+2019-06-28 08:06:42.0516 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60561ee8'
+2019-06-28 08:06:42.0517 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1773820699'
+2019-06-28 08:06:42.0519 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-28 08:06:42.0527 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@1147436029'
+2019-06-28 08:06:42.0528 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1773820699'
+2019-06-28 08:06:43.0403 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-28 08:06:43.0510 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-28 08:06:43.0511 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-28 08:06:43.0512 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60561ee8'
+2019-06-28 08:06:43.0568 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-28 08:06:43.0595 INFO Test worker com.netflix.governator.LifecycleManager Starting 'LifecycleManager@867709858'
+2019-06-28 08:06:43.0717 INFO Test worker com.netflix.ndbench.core.defaultimpl.NdBenchGuiceModule DISCOVERY_ENV is set to: null
+2019-06-28 08:06:43.0897 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@2134493443 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4f79202b]'
+2019-06-28 08:06:43.0897 INFO Test worker com.netflix.governator.LifecycleManager Adding listener 'SafeLifecycleListener@444236626 [LifecycleProvisionListener@1847445857]'
+2019-06-28 08:06:43.0906 INFO Test worker com.netflix.archaius.config.DefaultCompositeConfig Configuration with name'RUNTIME' already exists
+2019-06-28 08:06:43.0911 INFO Test worker com.netflix.archaius.guice.ConfigurationInjectingListener Initializing ConfigurationInjectingListener
+2019-06-28 08:06:44.0373 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Still initializing sample data for values. So far: 0 /100
+2019-06-28 08:06:44.0392 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Duration to initialize the dataset of random data (ISO-8601 format): PT0.014S
+2019-06-28 08:06:44.0395 INFO Test worker com.netflix.ndbench.core.generators.DefaultDataGenerator Scheduling a thread to modify random values from generated values data set
+2019-06-28 08:06:44.0406 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: readLimiter to: 45
+2019-06-28 08:06:44.0418 INFO Test worker com.netflix.ndbench.core.NdBenchDriver Setting rate Limit for: writeLimiter to: 35
+2019-06-28 08:06:44.0419 INFO Test worker com.netflix.governator.LifecycleManager Started 'LifecycleManager@867709858'
+2019-06-28 08:06:44.0420 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4f79202b'
+2019-06-28 08:06:44.0421 INFO Test worker com.netflix.governator.SafeLifecycleListener Starting 'LifecycleProvisionListener@1847445857'
+2019-06-28 08:06:44.0423 INFO Test worker com.netflix.governator.LifecycleInjectorCreator Injector created successfully 
+2019-06-28 08:06:49.0203 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-28 08:06:49.0204 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-28 08:06:50.0895 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 28 08:06:50 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-28 08:06:51.0245 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Creating table programmatically
+2019-06-28 08:06:51.0246 INFO Test worker com.netflix.ndbench.plugin.dynamodb.operations.dynamodb.controlplane.CreateDynamoDBTable Creating Table: ndbench-table
+2019-06-28 08:06:51.0386 INFO Test worker com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValue Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 28 08:06:51 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+2019-06-28 08:06:51.0550 INFO Test worker com.netflix.governator.LifecycleManager Stopping 'LifecycleManager@867709858'
+2019-06-28 08:06:51.0550 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'LifecycleProvisionListener@1847445857'
+2019-06-28 08:06:51.0610 INFO lifecycle-listener-monitor-0 com.netflix.governator.LifecycleManager LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-28 08:06:51.0903 INFO predestroy-monitor-0 com.netflix.governator.internal.PreDestroyMonitor PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-28 08:06:51.0903 INFO Test worker com.netflix.governator.internal.PreDestroyMonitor closing PreDestroyMonitor...
+2019-06-28 08:06:51.0904 INFO Test worker com.netflix.governator.SafeLifecycleListener Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4f79202b'
+2019-06-28 08:06:51.0912 INFO Thread-5 com.netflix.ndbench.core.NdBenchDriver *** shutting down NdBench server since JVM is shutting down
+2019-06-28 08:06:51.0913 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!
+2019-06-28 08:06:51.0913 WARN Thread-5 com.netflix.ndbench.core.NdBenchDriver Broken reference to threadPool -- unable to stop!

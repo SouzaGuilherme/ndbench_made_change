@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValueTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValueTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.netflix.ndbench.plugin.dynamodb.html">com.netflix.ndbench.plugin.dynamodb</a> &gt; DynamoDBProgrammaticKeyValueTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">7.124s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCreateDynamoDbFromDataGenerator_withInit_andAutoscaling_protectedSetupMethodsCalled</td>
+<td class="success">6.769s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateDynamoDbFromDataGenerator_withInit_andNoAutoscaling_protectedSetupMethodsCalled</td>
+<td class="success">0.284s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateDynamoDbFromDataGenerator_withoutInit_protectedSetupMethodsNotCalled</td>
+<td class="success">0.071s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre> INFO 08:06:43,568 DISCOVERY_ENV is set to: null
+ INFO 08:06:43,595 Starting 'LifecycleManager@867709858'
+ INFO 08:06:43,717 DISCOVERY_ENV is set to: null
+ INFO 08:06:43,897 Adding listener 'SafeLifecycleListener@2134493443 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4f79202b]'
+ INFO 08:06:43,897 Adding listener 'SafeLifecycleListener@444236626 [LifecycleProvisionListener@1847445857]'
+ INFO 08:06:43,906 Configuration with name'RUNTIME' already exists
+ INFO 08:06:43,911 Initializing ConfigurationInjectingListener
+ INFO 08:06:44,373 Still initializing sample data for values. So far: 0 /100
+ INFO 08:06:44,392 Duration to initialize the dataset of random data (ISO-8601 format): PT0.014S
+ INFO 08:06:44,395 Scheduling a thread to modify random values from generated values data set
+ INFO 08:06:44,406 Setting rate Limit for: readLimiter to: 45
+ INFO 08:06:44,418 Setting rate Limit for: writeLimiter to: 35
+ INFO 08:06:44,419 Started 'LifecycleManager@867709858'
+ INFO 08:06:44,420 Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4f79202b'
+ INFO 08:06:44,421 Starting 'LifecycleProvisionListener@1847445857'
+ INFO 08:06:44,423 Injector created successfully 
+Initializing DynamoDB Local with the following configuration:
+Port:	4567
+InMemory:	true
+DbPath:	null
+SharedDb:	false
+shouldDelayTransientStatuses:	false
+CorsParams:	*
+
+ INFO 08:06:49,203 Creating table programmatically
+ INFO 08:06:49,204 Creating Table: ndbench-table
+ INFO 08:06:50,895 Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 28 08:06:50 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+Initializing DynamoDB Local with the following configuration:
+Port:	4567
+InMemory:	true
+DbPath:	null
+SharedDb:	false
+shouldDelayTransientStatuses:	false
+CorsParams:	*
+
+ INFO 08:06:51,245 Creating table programmatically
+ INFO 08:06:51,246 Creating Table: ndbench-table
+ INFO 08:06:51,386 Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 28 08:06:51 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+Initializing DynamoDB Local with the following configuration:
+Port:	4567
+InMemory:	true
+DbPath:	null
+SharedDb:	false
+shouldDelayTransientStatuses:	false
+CorsParams:	*
+
+ INFO 08:06:51,550 Stopping 'LifecycleManager@867709858'
+ INFO 08:06:51,550 Stopping 'LifecycleProvisionListener@1847445857'
+ INFO 08:06:51,610 LifecycleManager.ListenerCleanupWorker is exiting
+ INFO 08:06:51,903 PreDestroyMonitor.ScopedCleanupWorker is exiting
+ INFO 08:06:51,903 closing PreDestroyMonitor...
+ INFO 08:06:51,904 Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4f79202b'
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.8.1</a> at 28/06/2019 08:06:53</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ConfigurationPropertiesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:06:17" hostname="julia" time="0.011">
+  <properties/>
+  <testcase name="testInvokingProcessMethodOnWriteOperationSetsNewRateLimit" classname="com.ConfigurationPropertiesTest" time="0.011"/>
+  <system-out><![CDATA[log4j: Parsing for [root] with value=[INFO, R, stdout].
+log4j: Level token is [INFO].
+log4j: Category root set to INFO
+log4j: Parsing appender named "R".
+log4j: Parsing layout options for "R".
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss.SSSS} %p %t %c %m%n].
+log4j: End of parsing for "R".
+log4j: Setting property [file] to [NdBench.log].
+log4j: Setting property [maxFileSize] to [5MB].
+log4j: Setting property [maxBackupIndex] to [5].
+log4j: setFile called: NdBench.log, true
+log4j: setFile ended
+log4j: Parsed "R" options.
+log4j: Parsing appender named "stdout".
+log4j: Parsing layout options for "stdout".
+log4j: Setting property [conversionPattern] to [%5p %d{HH:mm:ss,SSS} %m%n].
+log4j: End of parsing for "stdout".
+log4j: Parsed "stdout" options.
+log4j: Finished configuring.
+ INFO 08:06:16,658 DISCOVERY_ENV is set to: null
+ INFO 08:06:17,024 Starting 'LifecycleManager@1210781301'
+ INFO 08:06:17,097 DISCOVERY_ENV is set to: null
+ INFO 08:06:17,494 Adding listener 'SafeLifecycleListener@1985756602 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@36ff0d23]'
+ INFO 08:06:17,496 Adding listener 'SafeLifecycleListener@2073025177 [LifecycleProvisionListener@1797076084]'
+ INFO 08:06:17,527 Configuration with name'RUNTIME' already exists
+ INFO 08:06:17,536 Initializing ConfigurationInjectingListener
+ INFO 08:06:17,805 Still initializing sample data for values. So far: 0 /100
+ INFO 08:06:17,820 Duration to initialize the dataset of random data (ISO-8601 format): PT0.008S
+ INFO 08:06:17,822 Scheduling a thread to modify random values from generated values data set
+ INFO 08:06:17,829 Setting rate Limit for: readLimiter to: 45
+ INFO 08:06:17,837 Setting rate Limit for: writeLimiter to: 35
+ INFO 08:06:17,838 Started 'LifecycleManager@1210781301'
+ INFO 08:06:17,839 Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@36ff0d23'
+ INFO 08:06:17,840 Starting 'LifecycleProvisionListener@1797076084'
+ INFO 08:06:17,849 Injector created successfully 
+ INFO 08:06:17,869 Stopping 'LifecycleManager@1210781301'
+ INFO 08:06:17,870 Stopping 'LifecycleProvisionListener@1797076084'
+ INFO 08:06:18,027 LifecycleManager.ListenerCleanupWorker is exiting
+ INFO 08:06:18,491 PreDestroyMonitor.ScopedCleanupWorker is exiting
+ INFO 08:06:18,492 closing PreDestroyMonitor...
+ INFO 08:06:18,508 Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@36ff0d23'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

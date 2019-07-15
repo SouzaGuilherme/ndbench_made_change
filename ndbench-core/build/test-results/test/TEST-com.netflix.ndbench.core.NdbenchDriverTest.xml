@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.core.NdbenchDriverTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:06:18" hostname="julia" time="0.324">
+  <properties/>
+  <testcase name="testInvokingProcessMethodOnBulkWriteOperationSetsNewRateLimit" classname="com.netflix.ndbench.core.NdbenchDriverTest" time="0.318"/>
+  <testcase name="testInvokingProcessMethodOnWriteOperationSetsNewRateLimit" classname="com.netflix.ndbench.core.NdbenchDriverTest" time="0.006"/>
+  <system-out><![CDATA[ INFO 08:06:18,517 DISCOVERY_ENV is set to: null
+ INFO 08:06:18,529 Starting 'LifecycleManager@1742359047'
+ INFO 08:06:18,541 DISCOVERY_ENV is set to: null
+ INFO 08:06:18,588 Adding listener 'SafeLifecycleListener@631537977 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@10037115]'
+ INFO 08:06:18,588 Adding listener 'SafeLifecycleListener@1348408404 [LifecycleProvisionListener@1579360049]'
+ INFO 08:06:18,592 Configuration with name'RUNTIME' already exists
+ INFO 08:06:18,595 Initializing ConfigurationInjectingListener
+ INFO 08:06:18,605 Still initializing sample data for values. So far: 0 /100
+ INFO 08:06:18,607 Duration to initialize the dataset of random data (ISO-8601 format): PT0.002S
+ INFO 08:06:18,608 Scheduling a thread to modify random values from generated values data set
+ INFO 08:06:18,618 Setting rate Limit for: readLimiter to: 45
+ INFO 08:06:18,618 Setting rate Limit for: writeLimiter to: 35
+ INFO 08:06:18,621 Started 'LifecycleManager@1742359047'
+ INFO 08:06:18,622 Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@10037115'
+ INFO 08:06:18,623 Starting 'LifecycleProvisionListener@1579360049'
+ INFO 08:06:18,625 Injector created successfully 
+ INFO 08:06:18,943 Setting rate Limit for: writeLimiter to: 35
+ INFO 08:06:18,950 Setting rate Limit for: writeLimiter to: 35
+ INFO 08:06:18,951 Stopping 'LifecycleManager@1742359047'
+ INFO 08:06:18,952 Stopping 'LifecycleProvisionListener@1579360049'
+ INFO 08:06:19,530 LifecycleManager.ListenerCleanupWorker is exiting
+ INFO 08:06:19,587 PreDestroyMonitor.ScopedCleanupWorker is exiting
+ INFO 08:06:19,588 closing PreDestroyMonitor...
+ INFO 08:06:19,589 Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@10037115'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

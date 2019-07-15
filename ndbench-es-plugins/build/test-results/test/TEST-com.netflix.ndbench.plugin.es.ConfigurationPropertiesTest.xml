@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.plugin.es.ConfigurationPropertiesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:06:58" hostname="julia" time="0.095">
+  <properties/>
+  <testcase name="testInvokingProcessMethodOnWriteOperationSetsNewRateLimit" classname="com.netflix.ndbench.plugin.es.ConfigurationPropertiesTest" time="0.095"/>
+  <system-out><![CDATA[2019-06-28 08:06:57 INFO  LifecycleManager:72 - Starting 'LifecycleManager@734346869'
+2019-06-28 08:06:57 INFO  LifecycleManager:85 - Adding listener 'SafeLifecycleListener@963507933 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60adbd7e]'
+2019-06-28 08:06:57 INFO  LifecycleManager:85 - Adding listener 'SafeLifecycleListener@311389064 [LifecycleProvisionListener@1735634335]'
+2019-06-28 08:06:57 INFO  DefaultCompositeConfig:132 - Configuration with name'RUNTIME' already exists
+2019-06-28 08:06:58 INFO  ConfigurationInjectingListener:45 - Initializing ConfigurationInjectingListener
+2019-06-28 08:06:58 INFO  LifecycleManager:101 - Started 'LifecycleManager@734346869'
+2019-06-28 08:06:58 INFO  SafeLifecycleListener:42 - Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60adbd7e'
+2019-06-28 08:06:58 INFO  SafeLifecycleListener:42 - Starting 'LifecycleProvisionListener@1735634335'
+2019-06-28 08:06:58 INFO  LifecycleInjectorCreator:124 - Injector created successfully 
+2019-06-28 08:06:58 INFO  LifecycleManager:130 - Stopping 'LifecycleManager@734346869'
+2019-06-28 08:06:58 INFO  SafeLifecycleListener:55 - Stopping 'LifecycleProvisionListener@1735634335'
+2019-06-28 08:06:58 INFO  LifecycleManager:48 - LifecycleManager.ListenerCleanupWorker is exiting
+2019-06-28 08:06:58 INFO  PreDestroyMonitor:136 - PreDestroyMonitor.ScopedCleanupWorker is exiting
+2019-06-28 08:06:58 INFO  PreDestroyMonitor:191 - closing PreDestroyMonitor...
+2019-06-28 08:06:58 INFO  SafeLifecycleListener:55 - Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@60adbd7e'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

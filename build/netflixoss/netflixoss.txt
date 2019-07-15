@@ -1,0 +1,14 @@
+com.netflix.ndbench:ndbench-api:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-aws:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-cass-plugins:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-cli:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-cockroachdb-plugins:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-core:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-dax-plugins:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-dynamodb-plugins:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-dyno-plugins:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-es-plugins:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-geode-plugins:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-janusgraph-plugins:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-sample-plugins:0.5.0-SNAPSHOT
+com.netflix.ndbench:ndbench-web:0.5.0-SNAPSHOT

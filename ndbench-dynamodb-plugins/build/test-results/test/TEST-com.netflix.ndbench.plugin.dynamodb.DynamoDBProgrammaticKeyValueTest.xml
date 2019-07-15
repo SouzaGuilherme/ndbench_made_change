@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValueTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:06:44" hostname="julia" time="7.125">
+  <properties/>
+  <testcase name="testCreateDynamoDbFromDataGenerator_withInit_andAutoscaling_protectedSetupMethodsCalled" classname="com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValueTest" time="6.769"/>
+  <testcase name="testCreateDynamoDbFromDataGenerator_withInit_andNoAutoscaling_protectedSetupMethodsCalled" classname="com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValueTest" time="0.284"/>
+  <testcase name="testCreateDynamoDbFromDataGenerator_withoutInit_protectedSetupMethodsNotCalled" classname="com.netflix.ndbench.plugin.dynamodb.DynamoDBProgrammaticKeyValueTest" time="0.071"/>
+  <system-out><![CDATA[ INFO 08:06:43,568 DISCOVERY_ENV is set to: null
+ INFO 08:06:43,595 Starting 'LifecycleManager@867709858'
+ INFO 08:06:43,717 DISCOVERY_ENV is set to: null
+ INFO 08:06:43,897 Adding listener 'SafeLifecycleListener@2134493443 [com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4f79202b]'
+ INFO 08:06:43,897 Adding listener 'SafeLifecycleListener@444236626 [LifecycleProvisionListener@1847445857]'
+ INFO 08:06:43,906 Configuration with name'RUNTIME' already exists
+ INFO 08:06:43,911 Initializing ConfigurationInjectingListener
+ INFO 08:06:44,373 Still initializing sample data for values. So far: 0 /100
+ INFO 08:06:44,392 Duration to initialize the dataset of random data (ISO-8601 format): PT0.014S
+ INFO 08:06:44,395 Scheduling a thread to modify random values from generated values data set
+ INFO 08:06:44,406 Setting rate Limit for: readLimiter to: 45
+ INFO 08:06:44,418 Setting rate Limit for: writeLimiter to: 35
+ INFO 08:06:44,419 Started 'LifecycleManager@867709858'
+ INFO 08:06:44,420 Starting 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4f79202b'
+ INFO 08:06:44,421 Starting 'LifecycleProvisionListener@1847445857'
+ INFO 08:06:44,423 Injector created successfully 
+Initializing DynamoDB Local with the following configuration:
+Port:	4567
+InMemory:	true
+DbPath:	null
+SharedDb:	false
+shouldDelayTransientStatuses:	false
+CorsParams:	*
+
+ INFO 08:06:49,203 Creating table programmatically
+ INFO 08:06:49,204 Creating Table: ndbench-table
+ INFO 08:06:50,895 Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 28 08:06:50 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+Initializing DynamoDB Local with the following configuration:
+Port:	4567
+InMemory:	true
+DbPath:	null
+SharedDb:	false
+shouldDelayTransientStatuses:	false
+CorsParams:	*
+
+ INFO 08:06:51,245 Creating table programmatically
+ INFO 08:06:51,246 Creating Table: ndbench-table
+ INFO 08:06:51,386 Table Description: {AttributeDefinitions: [{AttributeName: id,AttributeType: S}],TableName: ndbench-table,KeySchema: [{AttributeName: id,KeyType: HASH}],TableStatus: ACTIVE,CreationDateTime: Fri Jun 28 08:06:51 BRT 2019,ProvisionedThroughput: {LastIncreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,LastDecreaseDateTime: Wed Dec 31 21:00:00 BRT 1969,NumberOfDecreasesToday: 0,ReadCapacityUnits: 5,WriteCapacityUnits: 5},TableSizeBytes: 0,ItemCount: 0,TableArn: arn:aws:dynamodb:ddblocal:000000000000:table/ndbench-table,BillingModeSummary: {BillingMode: PROVISIONED,LastUpdateToPayPerRequestDateTime: Wed Dec 31 21:00:00 BRT 1969},}
+Initializing DynamoDB Local with the following configuration:
+Port:	4567
+InMemory:	true
+DbPath:	null
+SharedDb:	false
+shouldDelayTransientStatuses:	false
+CorsParams:	*
+
+ INFO 08:06:51,550 Stopping 'LifecycleManager@867709858'
+ INFO 08:06:51,550 Stopping 'LifecycleProvisionListener@1847445857'
+ INFO 08:06:51,610 LifecycleManager.ListenerCleanupWorker is exiting
+ INFO 08:06:51,903 PreDestroyMonitor.ScopedCleanupWorker is exiting
+ INFO 08:06:51,903 closing PreDestroyMonitor...
+ INFO 08:06:51,904 Stopping 'com.netflix.governator.ProvisionMetricsModule$MetricsProvisionListener@4f79202b'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

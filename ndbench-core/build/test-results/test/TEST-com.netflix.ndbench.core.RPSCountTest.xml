@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.netflix.ndbench.core.RPSCountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-28T11:06:20" hostname="julia" time="0.107">
+  <properties/>
+  <testcase name="testMessageLogged" classname="com.netflix.ndbench.core.RPSCountTest" time="0.107"/>
+  <system-out><![CDATA[ INFO 08:06:20,813 Read avg: 0.0ms, Read RPS: 10, Write avg: 0.0ms, Write RPS: 0, total RPS: 10, Success Ratio: 100%
+ WARN 08:06:20,814 Observed Write RPS (0) less than expected write rate + (1).
+If this occurs consistently the benchmark client could be the bottleneck.
+ INFO 08:06:20,838 Read avg: 0.0ms, Read RPS: 9, Write avg: 0.0ms, Write RPS: 0, total RPS: 9, Success Ratio: 100%
+ WARN 08:06:20,838 Observed Write RPS (0) less than expected write rate + (1).
+If this occurs consistently the benchmark client could be the bottleneck.
+ INFO 08:06:20,840 Read avg: 0.0ms, Read RPS: 8, Write avg: 0.0ms, Write RPS: 0, total RPS: 8, Success Ratio: 100%
+ WARN 08:06:20,841 Observed Read RPS (8) less than expected read rate + (9).
+If this occurs consistently the benchmark client could be the bottleneck.
+ WARN 08:06:20,844 Observed Write RPS (0) less than expected write rate + (1).
+If this occurs consistently the benchmark client could be the bottleneck.
+ INFO 08:06:20,852 Read avg: 0.0ms, Read RPS: 8, Write avg: 0.0ms, Write RPS: 0, total RPS: 8, Success Ratio: 100%
+ WARN 08:06:20,853 Observed Write RPS (0) less than expected write rate + (1).
+If this occurs consistently the benchmark client could be the bottleneck.
+ INFO 08:06:20,855 Read avg: 0.0ms, Read RPS: 0, Write avg: 0.0ms, Write RPS: 10, total RPS: 10, Success Ratio: 100%
+ WARN 08:06:20,856 Observed Read RPS (0) less than expected read rate + (1).
+If this occurs consistently the benchmark client could be the bottleneck.
+ INFO 08:06:20,857 Read avg: 0.0ms, Read RPS: 0, Write avg: 0.0ms, Write RPS: 9, total RPS: 9, Success Ratio: 100%
+ WARN 08:06:20,858 Observed Read RPS (0) less than expected read rate + (1).
+If this occurs consistently the benchmark client could be the bottleneck.
+ INFO 08:06:20,859 Read avg: 0.0ms, Read RPS: 0, Write avg: 0.0ms, Write RPS: 8, total RPS: 8, Success Ratio: 100%
+ WARN 08:06:20,860 Observed Read RPS (0) less than expected read rate + (1).
+If this occurs consistently the benchmark client could be the bottleneck.
+ WARN 08:06:20,862 Observed Write RPS (8) less than expected write rate + (9).
+If this occurs consistently the benchmark client could be the bottleneck.
+ INFO 08:06:20,866 Read avg: 0.0ms, Read RPS: 0, Write avg: 0.0ms, Write RPS: 8, total RPS: 8, Success Ratio: 100%
+ WARN 08:06:20,867 Observed Read RPS (0) less than expected read rate + (1).
+If this occurs consistently the benchmark client could be the bottleneck.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
